@@ -39,7 +39,7 @@ export const config = {
         //Basic setting for players without permission
         1:{
             default:true, //if you put false when the player sends the message it will be the basic one
-            chat_display:'§8[§asteve§8]',
+            chat_display:'§8[§abegginer§8]',
             chat_display_after:'§8>>',
             name_player_color:'§f',
             chat_color:'§f'
@@ -47,7 +47,7 @@ export const config = {
         //allow list for players who have the tag
         2:{
             tag:'admin',  //the tag that the player must have to have changes in chat
-            chat_display:'§8[§dAdmin§8]', //as you will see the first part of the player role chat
+            chat_display:'§8[§dadmin§8]', //as you will see the first part of the player role chat
             chat_display_after:'§a>>', //what will be after the player's name
             chat_color:'§2', //the color of the message the player sends
             name_player_color:'§4', //color of the player's name that will be seen in chat
@@ -55,7 +55,7 @@ export const config = {
         },
         3:{
             tag:'mod',
-            chat_display:'§8[§aMod§8]',
+            chat_display:'§8[§amod§8]',
             chat_display_after:'§d>>',
             chat_color:'§5',
             name_player_color:'§d',
@@ -71,7 +71,7 @@ export const config = {
         },
         5:{
             tag:'builder',
-            chat_display:'§8[§8Builder§8]',
+            chat_display:'§8[§8builder§8]',
             chat_display_after:'§8>>',
             chat_color:'§f',
             name_player_color:'§f',
@@ -79,7 +79,7 @@ export const config = {
         },
         6:{
             tag:'vip',
-            chat_display:'§8[§6Vip§8]',
+            chat_display:'§8[§6vip§8]',
             chat_display_after:'§8>>',
             chat_color:'§6',
             name_player_color:'§e',
