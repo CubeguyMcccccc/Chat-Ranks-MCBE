@@ -33,14 +33,16 @@ export const config = {
     access_command:["admin","mod"],
 
     /**
+
+    
      * here you can configure the rank permissions
      */
     permission:{
         //Basic setting for players without permission
         1:{
             default:true, //if you put false when the player sends the message it will be the basic one
-            chat_display:'§8[§asteve§8]',
-            chat_display_after:'§8>>',
+            chat_display:'§8[§abegginer§8]',
+            chat_display_after:'§6>>',
             name_player_color:'§f',
             chat_color:'§f'
         },
@@ -63,23 +65,23 @@ export const config = {
         },
         4:{
             tag:'helper',
-            chat_display:'§8[§dHelper§8]',
+            chat_display:'§8[§dkind§8]',
             chat_display_after:'§8>>',
             chat_color:'§f',
             name_player_color:'§a',
             description:'This role is often given to players who are willing to help other players. They usually do not have moderation permissions.'
         },
         5:{
-            tag:'builder',
-            chat_display:'§8[§8Builder§8]',
+            tag:'master builder',
+            chat_display:'§8[§8master builder§8]',
             chat_display_after:'§8>>',
             chat_color:'§f',
             name_player_color:'§f',
             description:'This role is given to players who contribute to building structures in the server.'
         },
         6:{
-            tag:'vip',
-            chat_display:'§8[§6Vip§8]',
+            tag:'special',
+            chat_display:'§8[§6special§8]',
             chat_display_after:'§8>>',
             chat_color:'§6',
             name_player_color:'§e',
